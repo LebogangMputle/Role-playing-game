@@ -1,4 +1,4 @@
-# Role-playing-game
+## Role-playing-game
 
 JavaScript interacts with the HTML using the Document Object Model, or DOM. The DOM is a tree of objects that represents the HTML. You can access the HTML using the document object, which represents your entire HTML document.
 
@@ -25,4 +25,7 @@ In this example, button is the button element, and myFunction is a reference to 
 <p id="info">Demo content</p> 
 const info = document.querySelector("#info"); 
 info.innerText = "Hello World"; 
+
+## 
+You have repetition in the goTown and goStore functions. When you have repetition in your code, this is a sign that you need another function. Functions can take parameters, which are values that are given to the function each time it is run. Here is a function that takes a parameter called param:
 The following example would change the text of the p element from Demo content to Hello World.
