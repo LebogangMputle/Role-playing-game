@@ -29,3 +29,24 @@ info.innerText = "Hello World";
 ## 
 You have repetition in the goTown and goStore functions. When you have repetition in your code, this is a sign that you need another function. Functions can take parameters, which are values that are given to the function each time it is run. Here is a function that takes a parameter called param:
 The following example would change the text of the p element from Demo content to Hello World.
+
+##
+What if the player doesn't have enough gold to buy health? When you want to run code conditionally, you can use the if statement.
+
+An if statement is used to make decisions in code. The keyword if is followed by a condition in parentheses. If the condition is true, the code inside the curly braces {} is executed. If the condition is false, the code inside the curly braces is skipped.
+
+Here is an example of an if statement:
+
+const num = 5;
+if (num >= 3) {
+  console.log("This code will run because num is greater than or equal to 3.");
+}
+
+##
+function buyWeapon() {
+  if (gold >= 30) {
+    gold -= 30;
+    currentWeapon += 1; //weapons[currentWeapon]= weapon[0]={...stick}
+    currentWeapon += 1; //weapons[currentWeapon]= weapon[1]={...dagger}
+  }                     
+}
